@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gestão Digital Funcional</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    
+    <header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+          <h1 class="text-2xl font-bold text-indigo-600">Gestao Digital Funcional</h1>
+          <nav class="space-x-6 text-sm font-medium">
+            <a href="#hero" class="hover:text-indigo-600 transition">Início</a>
+            <a href="#sobre" class="hover:text-indigo-600 transition">Serviços</a>
+            <a href="#contato" class="hover:text-indigo-600 transition">Contato</a>
+          </nav>
+        </div>
+    </header> 
+    <section id="hero" class="pt-32 pb-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">Simplicidade no processo, excelência no resultado. Isso é GDF.</h2>
+            <p class="text-lg text-gray-700 mb-6">Transforme acessos em oportunidades.</p>
+            <a href="#contato" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg shadow hover:bg-indigo-700 transition">suporte</a>
+          </div>
+          <div>
+            <img src="logo_tcc-removebg-preview.png" alt="Profissionais trabalhando" class="rounded-lg shadow-xl">
+          </div>
+        </div>
+    </section>
+    <section id="sobre" class="py-24 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+          <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12">O que oferecemos</h3>
+          <div class="grid md:grid-cols-3 gap-10 text-left">
+            <div class="bg-white p-8 rounded-lg shadow hover:shadow-lg transition">
+              <img src="https://cdn-icons-png.flaticon.com/512/1828/1828778.png" alt="Design" class="w-10 mb-4">
+              <h4 class="text-lg font-semibold mb-2">Desenvolvimento Web Sob Medida</h4>
+              <p class="text-gray-600">Sites Institucionais: Criação de uma "vitrine digital" profissional para passar credibilidade.
+.</p>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow hover:shadow-lg transition">
+              <img src="https://cdn-icons-png.flaticon.com/512/1170/1170576.png" alt="SEO" class="w-10 mb-4">
+              <h4 class="text-lg font-semibold mb-2">Performance e Experiência do Usuário (UX/UI)</h4>
+              <p class="text-gray-600">Design Responsivo: Garantir que o site funcione perfeitamente em celulares, tablets e computadores.</p>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow hover:shadow-lg transition">
+              <img src="https://cdn-icons-png.flaticon.com/512/1250/1250678.png" alt="Manutenção" class="w-10 mb-4">
+              <h4 class="text-lg font-semibold mb-2">Presença e Visibilidade (SEO)</h4>
+              <p class="text-gray-600">Configurar o site para que ele apareça nas primeiras páginas do Google quando alguém buscar pelo serviço do cliente.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="contato" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+          <h3 class="text-3xl font-bold text-center text-gray-900 mb-10">Fale com a gente</h3>
+          <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
+            <form id="contactForm" class="space-y-6">
+              <div>
+                <label for="nome" class="block text-sm font-medium text-gray-700 mb-1">Nome</label>
+                <input type="text" id="nome" name="nome" required class="w-full border border-gray-300 rounded px-4 py-2">
+              </div>
+              <div>
+                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">E-mail</label>
+                <input type="email" id="email" name="email" required class="w-full border border-gray-300 rounded px-4 py-2">
+              </div>
+              <div>
+                <label for="mensagem" class="block text-sm font-medium text-gray-700 mb-1">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required class="w-full border border-gray-300 rounded px-4 py-2"></textarea>
+              </div>
+              <button type="submit" class="bg-indigo-600 text-white px-6 py-3 rounded hover:bg-indigo-700 transition">Enviar Mensagem</button>
+            </form>
+            <p id="feedback" class="text-center mt-4 text-sm"></p>
+          </div>
+        </div>
+    </section>
+    <footer class="bg-gray-50 py-6 text-center text-gray-500 boder-t mt-20">
+        &copy; 2026 Gestão Digital Funcional. todos os direitos reservados.
+        </footer>
+        </body>
+        </html>
